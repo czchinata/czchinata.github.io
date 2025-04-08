@@ -228,7 +228,7 @@
 
   const getIcon = (icon, mail) => {
     if (icon) return icon
-    let defaultIcon = '?d=monsterid'
+    let defaultIcon = '?d=mp'
     let iconUrl = `https://gravatar.loli.net/avatar/${md5(mail.toLowerCase()) + defaultIcon}`
     return iconUrl
   }
